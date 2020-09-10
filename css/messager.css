@@ -1,0 +1,36 @@
+#messager-backdrop {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#messager-container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#messager-dlg {        
+    width: 640px;
+    height: 240px;
+    background-color: aliceblue;
+    padding: 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+}
